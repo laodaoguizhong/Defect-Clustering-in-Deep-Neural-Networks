@@ -1,0 +1,14 @@
+torch==2.10.0.dev20250925+cu130
+torchvision==0.25.0.dev20250925+cu130
+numpy==2.2.6
+pandas==2.3.2
+scipy==1.16.2
+scikit-learn==1.7.2
+matplotlib==3.10.7
+seaborn==0.13.2
+tqdm==4.67.1
+umap-learn==0.5.9.post2
+openTSNE==1.0.2
+adversarial-robustness-toolbox>=1.15.0
+opencv-python==4.12.0
+multiprocess>=0.70.0
