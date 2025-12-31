@@ -1,0 +1,228 @@
+[
+  {
+    "dataset": "mnist",
+    "model": "lenet1",
+    "adversarial_library_size": 4479,
+    "clustering_metrics": {
+      "n_clusters": 2,
+      "noise_ratio_eta": 0.7959365929895066,
+      "silhouette_score_delta": 0.42173898220062256,
+      "davies_bouldin_index": 0.9812377780848779,
+      "calinski_harabasz_score": 456.51483154296875
+    },
+    "clustering_intensity": {
+      "global_lambda": 2.919607386900671e+49,
+      "average_log_lambda": 115.45771132019013,
+      "per_cluster_lambda": {
+        "0": 4.11115080051157e+51,
+        "1": 4.691702131916863e+48
+      }
+    },
+    "cluster_details": [
+      {
+        "cluster_id": 0,
+        "size": 768,
+        "lambda": 4.11115080051157e+51,
+        "log_lambda": 118.84554273213622,
+        "volume": 1.868090073233103e-49,
+        "percentage": 0.17146684527796383
+      },
+      {
+        "cluster_id": 1,
+        "size": 146,
+        "lambda": 4.691702131916863e+48,
+        "log_lambda": 112.06987990824402,
+        "volume": 3.111877009556637e-47,
+        "percentage": 0.03259656173252958
+      }
+    ]
+  },
+  {
+    "dataset": "mnist",
+    "model": "lenet4",
+    "adversarial_library_size": 5408,
+    "clustering_metrics": {
+      "n_clusters": 4,
+      "noise_ratio_eta": 0.7095044378698225,
+      "silhouette_score_delta": 0.5045520067214966,
+      "davies_bouldin_index": 0.9031742371786575,
+      "calinski_harabasz_score": 1300.559814453125
+    },
+    "clustering_intensity": {
+      "global_lambda": 3.2643158772348206e+56,
+      "average_log_lambda": 134.46830252946773,
+      "per_cluster_lambda": {
+        "0": 7.037156063813774e+55,
+        "1": 3.534200937940749e+58,
+        "2": 1.5655508147486543e+60,
+        "3": 1.01160630829391e+59
+      }
+    },
+    "cluster_details": [
+      {
+        "cluster_id": 0,
+        "size": 338,
+        "lambda": 7.037156063813774e+55,
+        "log_lambda": 128.59338423501706,
+        "volume": 4.8030766539063656e-54,
+        "percentage": 0.0625
+      },
+      {
+        "cluster_id": 1,
+        "size": 239,
+        "lambda": 3.534200937940749e+58,
+        "log_lambda": 134.81242262443627,
+        "volume": 6.762490424193538e-57,
+        "percentage": 0.04419378698224852
+      },
+      {
+        "cluster_id": 2,
+        "size": 759,
+        "lambda": 1.5655508147486543e+60,
+        "log_lambda": 138.6033433000179,
+        "volume": 4.848133914591941e-58,
+        "percentage": 0.14034763313609466
+      },
+      {
+        "cluster_id": 3,
+        "size": 235,
+        "lambda": 1.01160630829391e+59,
+        "log_lambda": 135.86405995839974,
+        "volume": 2.3230381035912042e-57,
+        "percentage": 0.04345414201183432
+      }
+    ]
+  },
+  {
+    "dataset": "mnist",
+    "model": "lenet5",
+    "adversarial_library_size": 4677,
+    "clustering_metrics": {
+      "n_clusters": 2,
+      "noise_ratio_eta": 0.8131280735514218,
+      "silhouette_score_delta": 0.5074290037155151,
+      "davies_bouldin_index": 0.863200028047507,
+      "calinski_harabasz_score": 1029.305908203125
+    },
+    "clustering_intensity": {
+      "global_lambda": 2.204762788186411e+55,
+      "average_log_lambda": 131.95613094986305,
+      "per_cluster_lambda": {
+        "0": 5.680477216403028e+59,
+        "1": 7.265311298846087e+54
+      }
+    },
+    "cluster_details": [
+      {
+        "cluster_id": 0,
+        "size": 586,
+        "lambda": 5.680477216403028e+59,
+        "log_lambda": 137.5895557328249,
+        "volume": 1.0316034686449523e-57,
+        "percentage": 0.12529399187513363
+      },
+      {
+        "cluster_id": 1,
+        "size": 288,
+        "lambda": 7.265311298846087e+54,
+        "log_lambda": 126.32270616690124,
+        "volume": 3.964042119513074e-53,
+        "percentage": 0.061577934573444515
+      }
+    ]
+  },
+  {
+    "dataset": "cifar10",
+    "model": "resnet20",
+    "adversarial_library_size": 6615,
+    "clustering_metrics": {
+      "n_clusters": 2,
+      "noise_ratio_eta": 0.7301587301587301,
+      "silhouette_score_delta": 0.5236755013465881,
+      "davies_bouldin_index": 0.6871128658477952,
+      "calinski_harabasz_score": 2671.456298828125
+    },
+    "clustering_intensity": {
+      "global_lambda": 4.324464560132172e+59,
+      "average_log_lambda": 138.4669709696519,
+      "per_cluster_lambda": {
+        "0": 2.976819525891926e+59,
+        "1": 6.268019375254648e+60
+      }
+    },
+    "cluster_details": [
+      {
+        "cluster_id": 0,
+        "size": 1201,
+        "lambda": 2.976819525891926e+59,
+        "log_lambda": 136.9433759440338,
+        "volume": 4.0345072637218864e-57,
+        "percentage": 0.18155706727135298
+      },
+      {
+        "cluster_id": 1,
+        "size": 584,
+        "lambda": 6.268019375254648e+60,
+        "log_lambda": 139.99056599527,
+        "volume": 9.317137759745264e-59,
+        "percentage": 0.08828420256991686
+      }
+    ]
+  },
+  {
+    "dataset": "cifar10",
+    "model": "resnet50",
+    "adversarial_library_size": 6937,
+    "clustering_metrics": {
+      "n_clusters": 4,
+      "noise_ratio_eta": 0.8075536975637884,
+      "silhouette_score_delta": 0.5340162515640259,
+      "davies_bouldin_index": 0.6986217801777539,
+      "calinski_harabasz_score": 1485.5872802734375
+    },
+    "clustering_intensity": {
+      "global_lambda": 5.242147728677842e+51,
+      "average_log_lambda": 120.28245496042165,
+      "per_cluster_lambda": {
+        "0": 5.457475399270815e+52,
+        "1": 1.988586337602972e+53,
+        "2": 3.517789388717171e+51,
+        "3": 2.3454153534996658e+51
+      }
+    },
+    "cluster_details": [
+      {
+        "cluster_id": 0,
+        "size": 240,
+        "lambda": 5.457475399270815e+52,
+        "log_lambda": 121.43141113743016,
+        "volume": 4.39763778013668e-51,
+        "percentage": 0.03459708807842007
+      },
+      {
+        "cluster_id": 1,
+        "size": 335,
+        "lambda": 1.988586337602972e+53,
+        "log_lambda": 122.7244339318651,
+        "volume": 1.6846138066291268e-51,
+        "percentage": 0.04829176877612801
+      },
+      {
+        "cluster_id": 2,
+        "size": 531,
+        "lambda": 3.517789388717171e+51,
+        "log_lambda": 118.6896725204536,
+        "volume": 1.5094706968618158e-49,
+        "percentage": 0.0765460573735044
+      },
+      {
+        "cluster_id": 3,
+        "size": 229,
+        "lambda": 2.3454153534996658e+51,
+        "log_lambda": 118.28430225193772,
+        "volume": 9.763729040926657e-50,
+        "percentage": 0.033011388208159145
+      }
+    ]
+  }
+]

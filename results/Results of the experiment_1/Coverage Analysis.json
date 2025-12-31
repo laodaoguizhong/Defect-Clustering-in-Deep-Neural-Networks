@@ -1,0 +1,215 @@
+{
+  "experiment": "Neuron Coverage Analysis (RQ Supplement)",
+  "total_models": 5,
+  "results": [
+    {
+      "dataset": "mnist",
+      "model": "lenet1",
+      "config": {
+        "n_seeds_per_group": 50,
+        "n_mutations_per_seed": 10,
+        "total_tests_per_group": 500
+      },
+      "coverage_comparison": {
+        "near": {
+          "final_coverage": 0.9328358208955224,
+          "total_errors": 134,
+          "ESR": 0.86,
+          "DDC": 2.68
+        },
+        "far": {
+          "final_coverage": 0.9935107073329007,
+          "total_errors": 55,
+          "ESR": 0.54,
+          "DDC": 1.1
+        },
+        "random": {
+          "final_coverage": 0.9889682024659312,
+          "total_errors": 78,
+          "ESR": 0.6,
+          "DDC": 1.56
+        }
+      },
+      "analysis": {
+        "coverage_similarity": {
+          "near_vs_far_diff": 0.060674886437378284,
+          "near_vs_random_diff": 0.056132381570408785
+        },
+        "defect_detection_disparity": {
+          "near_vs_far_ratio": 2.4363636363636365,
+          "near_vs_random_ratio": 1.7179487179487178
+        }
+      }
+    },
+    {
+      "dataset": "mnist",
+      "model": "lenet4",
+      "config": {
+        "n_seeds_per_group": 50,
+        "n_mutations_per_seed": 10,
+        "total_tests_per_group": 500
+      },
+      "coverage_comparison": {
+        "near": {
+          "final_coverage": 0.9693225394120153,
+          "total_errors": 77,
+          "ESR": 0.68,
+          "DDC": 1.54
+        },
+        "far": {
+          "final_coverage": 0.9748615253515126,
+          "total_errors": 13,
+          "ESR": 0.08,
+          "DDC": 0.26
+        },
+        "random": {
+          "final_coverage": 0.9827439284192586,
+          "total_errors": 66,
+          "ESR": 0.4,
+          "DDC": 1.32
+        }
+      },
+      "analysis": {
+        "coverage_similarity": {
+          "near_vs_far_diff": 0.0055389859394973096,
+          "near_vs_random_diff": 0.013421389007243323
+        },
+        "defect_detection_disparity": {
+          "near_vs_far_ratio": 5.923076923076923,
+          "near_vs_random_ratio": 1.1666666666666667
+        }
+      }
+    },
+    {
+      "dataset": "mnist",
+      "model": "lenet5",
+      "config": {
+        "n_seeds_per_group": 50,
+        "n_mutations_per_seed": 10,
+        "total_tests_per_group": 500
+      },
+      "coverage_comparison": {
+        "near": {
+          "final_coverage": 0.958115986498926,
+          "total_errors": 80,
+          "ESR": 0.52,
+          "DDC": 1.6
+        },
+        "far": {
+          "final_coverage": 0.9740718011660019,
+          "total_errors": 29,
+          "ESR": 0.32,
+          "DDC": 0.58
+        },
+        "random": {
+          "final_coverage": 0.9660938938324639,
+          "total_errors": 37,
+          "ESR": 0.26,
+          "DDC": 0.74
+        }
+      },
+      "analysis": {
+        "coverage_similarity": {
+          "near_vs_far_diff": 0.01595581466707585,
+          "near_vs_random_diff": 0.00797790733353787
+        },
+        "defect_detection_disparity": {
+          "near_vs_far_ratio": 2.7586206896551726,
+          "near_vs_random_ratio": 2.1621621621621623
+        }
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "model": "resnet20",
+      "config": {
+        "n_seeds_per_group": 50,
+        "n_mutations_per_seed": 10,
+        "total_tests_per_group": 500
+      },
+      "coverage_comparison": {
+        "near": {
+          "final_coverage": 0.9116055681218052,
+          "total_errors": 177,
+          "ESR": 0.98,
+          "DDC": 3.54
+        },
+        "far": {
+          "final_coverage": 0.9185607381647518,
+          "total_errors": 91,
+          "ESR": 0.84,
+          "DDC": 1.82
+        },
+        "random": {
+          "final_coverage": 0.925555765915681,
+          "total_errors": 142,
+          "ESR": 0.88,
+          "DDC": 2.84
+        }
+      },
+      "analysis": {
+        "coverage_similarity": {
+          "near_vs_far_diff": 0.006955170042946657,
+          "near_vs_random_diff": 0.013950197793875851
+        },
+        "defect_detection_disparity": {
+          "near_vs_far_ratio": 1.945054945054945,
+          "near_vs_random_ratio": 1.2464788732394365
+        }
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "model": "resnet50",
+      "config": {
+        "n_seeds_per_group": 50,
+        "n_mutations_per_seed": 10,
+        "total_tests_per_group": 500
+      },
+      "coverage_comparison": {
+        "near": {
+          "final_coverage": 0.8355598233102925,
+          "total_errors": 173,
+          "ESR": 0.92,
+          "DDC": 3.46
+        },
+        "far": {
+          "final_coverage": 0.8534271941564908,
+          "total_errors": 95,
+          "ESR": 0.76,
+          "DDC": 1.9
+        },
+        "random": {
+          "final_coverage": 0.8458952738824481,
+          "total_errors": 114,
+          "ESR": 0.74,
+          "DDC": 2.28
+        }
+      },
+      "analysis": {
+        "coverage_similarity": {
+          "near_vs_far_diff": 0.01786737084619827,
+          "near_vs_random_diff": 0.010335450572155569
+        },
+        "defect_detection_disparity": {
+          "near_vs_far_ratio": 1.8210526315789475,
+          "near_vs_random_ratio": 1.5175438596491229
+        }
+      }
+    }
+  ],
+  "summary": {
+    "datasets": [
+      "cifar10",
+      "mnist"
+    ],
+    "models": [
+      "lenet4",
+      "resnet50",
+      "lenet5",
+      "lenet1",
+      "resnet20"
+    ]
+    
+  }
+}

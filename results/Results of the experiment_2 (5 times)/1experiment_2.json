@@ -1,0 +1,434 @@
+{
+  "experiment": "Defect Detection Potential Validation(RQ2)",
+  "total_models": 5,
+  "results": [
+    {
+      "dataset": "mnist",
+      "model": "lenet1",
+      "experiment_type": "parent_seed_based",
+      "config": {
+        "n_seeds_per_group": 50,
+        "n_mutations_per_seed": 10,
+        "total_tests_per_group": 500
+      },
+      "group_comparison": {
+        "near_parents": {
+          "n_seeds": 50,
+          "ESR": 0.82,
+          "DDC": 2.06,
+          "DDE": 474.169184573261,
+          "n_effective_seeds": 41,
+          "total_time": 0.08646702766418457,
+          "total_errors": 103
+        },
+        "far_parents": {
+          "n_seeds": 50,
+          "ESR": 0.5,
+          "DDC": 1.02,
+          "DDE": 240.36346465067874,
+          "n_effective_seeds": 25,
+          "total_time": 0.10400915145874023,
+          "total_errors": 51
+        },
+        "random_baseline": {
+          "n_seeds": 50,
+          "ESR": 0.5,
+          "DDC": 1.0,
+          "DDE": 206.60822550485796,
+          "n_effective_seeds": 25,
+          "total_time": 0.1210019588470459,
+          "total_errors": 50
+        }
+      },
+      "statistical_tests": {
+        "DDC": {
+          "near_vs_baseline": {
+            "t_statistic": 3.2739684248543672,
+            "p_value": 0.0014659928913357283,
+            "cohens_d": 0.6614415070300464,
+            "significance": "**"
+          },
+          "near_vs_far": {
+            "t_statistic": 3.3104591501702956,
+            "p_value": 0.0013045072481396567,
+            "cohens_d": 0.6688137468361347,
+            "significance": "**"
+          }
+        },
+        "ESR": {
+          "near_vs_baseline": {
+            "t_statistic": 3.552424286295086,
+            "p_value": 0.0005888093653056733,
+            "cohens_d": 0.7176980864260104,
+            "significance": "***"
+          },
+          "near_vs_far": {
+            "t_statistic": 3.552424286295086,
+            "p_value": 0.0005888093653056733,
+            "cohens_d": 0.7176980864260104,
+            "significance": "***"
+          }
+        },
+        "DDE": {
+          "near_vs_baseline": {
+            "t_statistic": 3.2739684248543672,
+            "p_value": 0.0014659928913357283,
+            "cohens_d": 0.6614415070300464,
+            "significance": "**"
+          },
+          "near_vs_far": {
+            "t_statistic": 3.3104591501702956,
+            "p_value": 0.0013045072481396567,
+            "cohens_d": 0.6688137468361347,
+            "significance": "**"
+          }
+        }
+      }
+    },
+    {
+      "dataset": "mnist",
+      "model": "lenet4",
+      "experiment_type": "parent_seed_based",
+      "config": {
+        "n_seeds_per_group": 50,
+        "n_mutations_per_seed": 10,
+        "total_tests_per_group": 500
+      },
+      "group_comparison": {
+        "near_parents": {
+          "n_seeds": 50,
+          "ESR": 0.66,
+          "DDC": 1.42,
+          "DDE": 259.8881901975842,
+          "n_effective_seeds": 33,
+          "total_time": 0.12697768211364746,
+          "total_errors": 71
+        },
+        "far_parents": {
+          "n_seeds": 50,
+          "ESR": 0.14,
+          "DDC": 0.32,
+          "DDE": 37.03724522813254,
+          "n_effective_seeds": 7,
+          "total_time": 0.18899893760681152,
+          "total_errors": 16
+        },
+        "random_baseline": {
+          "n_seeds": 50,
+          "ESR": 0.44,
+          "DDC": 1.16,
+          "DDE": 161.16526328842872,
+          "n_effective_seeds": 22,
+          "total_time": 0.1365058422088623,
+          "total_errors": 58
+        }
+      },
+      "statistical_tests": {
+        "DDC": {
+          "near_vs_baseline": {
+            "t_statistic": 0.7161802949866899,
+            "p_value": 0.47558317964531094,
+            "cohens_d": 0.14469026946779154,
+            "significance": "ns"
+          },
+          "near_vs_far": {
+            "t_statistic": 3.9390440783026612,
+            "p_value": 0.00015329169994228814,
+            "cohens_d": 0.7958070797601502,
+            "significance": "***"
+          }
+        },
+        "ESR": {
+          "near_vs_baseline": {
+            "t_statistic": 2.244411543716993,
+            "p_value": 0.027055016950363456,
+            "cohens_d": 0.4534396063816151,
+            "significance": "*"
+          },
+          "near_vs_far": {
+            "t_statistic": 6.198944599940561,
+            "p_value": 1.3485555652404955e-08,
+            "cohens_d": 1.252375932233629,
+            "significance": "***"
+          }
+        },
+        "DDE": {
+          "near_vs_baseline": {
+            "t_statistic": 0.7161802949866899,
+            "p_value": 0.47558317964531094,
+            "cohens_d": 0.14469026946779154,
+            "significance": "ns"
+          },
+          "near_vs_far": {
+            "t_statistic": 3.9390440783026612,
+            "p_value": 0.00015329169994228814,
+            "cohens_d": 0.7958070797601502,
+            "significance": "***"
+          }
+        }
+      }
+    },
+    {
+      "dataset": "mnist",
+      "model": "lenet5",
+      "experiment_type": "parent_seed_based",
+      "config": {
+        "n_seeds_per_group": 50,
+        "n_mutations_per_seed": 10,
+        "total_tests_per_group": 500
+      },
+      "group_comparison": {
+        "near_parents": {
+          "n_seeds": 50,
+          "ESR": 0.5,
+          "DDC": 1.9,
+          "DDE": 168.9219100888286,
+          "n_effective_seeds": 25,
+          "total_time": 0.14799737930297852,
+          "total_errors": 95
+        },
+        "far_parents": {
+          "n_seeds": 50,
+          "ESR": 0.26,
+          "DDC": 0.54,
+          "DDE": 67.69962131088514,
+          "n_effective_seeds": 13,
+          "total_time": 0.19202470779418945,
+          "total_errors": 27
+        },
+        "random_baseline": {
+          "n_seeds": 50,
+          "ESR": 0.28,
+          "DDC": 0.86,
+          "DDE": 91.5022002817358,
+          "n_effective_seeds": 14,
+          "total_time": 0.1530017852783203,
+          "total_errors": 43
+        }
+      },
+      "statistical_tests": {
+        "DDC": {
+          "near_vs_baseline": {
+            "t_statistic": 2.329030668168864,
+            "p_value": 0.021911051571350003,
+            "cohens_d": 0.4705352511581828,
+            "significance": "*"
+          },
+          "near_vs_far": {
+            "t_statistic": 3.3370862585115004,
+            "p_value": 0.0011973593765481998,
+            "cohens_d": 0.6741932350851217,
+            "significance": "**"
+          }
+        },
+        "ESR": {
+          "near_vs_baseline": {
+            "t_statistic": 2.2916260699090896,
+            "p_value": 0.024067590308573132,
+            "cohens_d": 0.4629783811361698,
+            "significance": "*"
+          },
+          "near_vs_far": {
+            "t_statistic": 2.525816073161907,
+            "p_value": 0.013145711380789528,
+            "cohens_d": 0.5102919066750747,
+            "significance": "*"
+          }
+        },
+        "DDE": {
+          "near_vs_baseline": {
+            "t_statistic": 2.329030668168864,
+            "p_value": 0.021911051571350003,
+            "cohens_d": 0.4705352511581828,
+            "significance": "*"
+          },
+          "near_vs_far": {
+            "t_statistic": 3.3370862585115004,
+            "p_value": 0.0011973593765481998,
+            "cohens_d": 0.6741932350851217,
+            "significance": "**"
+          }
+        }
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "model": "resnet20",
+      "experiment_type": "parent_seed_based",
+      "config": {
+        "n_seeds_per_group": 50,
+        "n_mutations_per_seed": 10,
+        "total_tests_per_group": 500
+      },
+      "group_comparison": {
+        "near_parents": {
+          "n_seeds": 50,
+          "ESR": 0.98,
+          "DDC": 3.62,
+          "DDE": 204.2311761227846,
+          "n_effective_seeds": 49,
+          "total_time": 0.23992419242858887,
+          "total_errors": 181
+        },
+        "far_parents": {
+          "n_seeds": 50,
+          "ESR": 0.76,
+          "DDC": 1.68,
+          "DDE": 81.41105537289243,
+          "n_effective_seeds": 38,
+          "total_time": 0.4667670726776123,
+          "total_errors": 84
+        },
+        "random_baseline": {
+          "n_seeds": 50,
+          "ESR": 0.8,
+          "DDC": 2.38,
+          "DDE": 93.78357665396447,
+          "n_effective_seeds": 40,
+          "total_time": 0.4265139102935791,
+          "total_errors": 119
+        }
+      },
+      "statistical_tests": {
+        "DDC": {
+          "near_vs_baseline": {
+            "t_statistic": 2.8507015393663826,
+            "p_value": 0.005319064214232112,
+            "cohens_d": 0.5759286827499711,
+            "significance": "**"
+          },
+          "near_vs_far": {
+            "t_statistic": 4.934692063372616,
+            "p_value": 3.288662021497525e-06,
+            "cohens_d": 0.9969583488794894,
+            "significance": "***"
+          }
+        },
+        "ESR": {
+          "near_vs_baseline": {
+            "t_statistic": 2.9731538225529537,
+            "p_value": 0.003709780594742533,
+            "cohens_d": 0.6006677798393996,
+            "significance": "**"
+          },
+          "near_vs_far": {
+            "t_statistic": 3.4264550280728825,
+            "p_value": 0.0008950489181893301,
+            "cohens_d": 0.6922484530803078,
+            "significance": "***"
+          }
+        },
+        "DDE": {
+          "near_vs_baseline": {
+            "t_statistic": 2.8507015393663826,
+            "p_value": 0.005319064214232112,
+            "cohens_d": 0.5759286827499711,
+            "significance": "**"
+          },
+          "near_vs_far": {
+            "t_statistic": 4.934692063372616,
+            "p_value": 3.288662021497525e-06,
+            "cohens_d": 0.9969583488794894,
+            "significance": "***"
+          }
+        }
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "model": "resnet50",
+      "experiment_type": "parent_seed_based",
+      "config": {
+        "n_seeds_per_group": 50,
+        "n_mutations_per_seed": 10,
+        "total_tests_per_group": 500
+      },
+      "group_comparison": {
+        "near_parents": {
+          "n_seeds": 50,
+          "ESR": 0.94,
+          "DDC": 3.02,
+          "DDE": 68.4148362650993,
+          "n_effective_seeds": 47,
+          "total_time": 0.6869854927062988,
+          "total_errors": 151
+        },
+        "far_parents": {
+          "n_seeds": 50,
+          "ESR": 0.66,
+          "DDC": 1.46,
+          "DDE": 31.727890058663988,
+          "n_effective_seeds": 33,
+          "total_time": 1.0400943756103516,
+          "total_errors": 73
+        },
+        "random_baseline": {
+          "n_seeds": 50,
+          "ESR": 0.78,
+          "DDC": 2.42,
+          "DDE": 45.47911083530802,
+          "n_effective_seeds": 39,
+          "total_time": 0.8575365543365479,
+          "total_errors": 121
+        }
+      },
+      "statistical_tests": {
+        "DDC": {
+          "near_vs_baseline": {
+            "t_statistic": 1.4075901714468906,
+            "p_value": 0.16241648243963547,
+            "cohens_d": 0.2843761586747518,
+            "significance": "ns"
+          },
+          "near_vs_far": {
+            "t_statistic": 4.039460530728125,
+            "p_value": 0.0001065384057588996,
+            "cohens_d": 0.8160942667466479,
+            "significance": "***"
+          }
+        },
+        "ESR": {
+          "near_vs_baseline": {
+            "t_statistic": 2.3455818864334934,
+            "p_value": 0.021012563112356247,
+            "cohens_d": 0.47387910220727364,
+            "significance": "*"
+          },
+          "near_vs_far": {
+            "t_statistic": 3.698771644872345,
+            "p_value": 0.0003575322148995796,
+            "cohens_d": 0.747264717757073,
+            "significance": "***"
+          }
+        },
+        "DDE": {
+          "near_vs_baseline": {
+            "t_statistic": 1.4075901714468906,
+            "p_value": 0.16241648243963547,
+            "cohens_d": 0.2843761586747518,
+            "significance": "ns"
+          },
+          "near_vs_far": {
+            "t_statistic": 4.039460530728125,
+            "p_value": 0.0001065384057588996,
+            "cohens_d": 0.8160942667466479,
+            "significance": "***"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "datasets": [
+      "mnist",
+      "cifar10"
+    ],
+    "models": [
+      "resnet50",
+      "resnet20",
+      "lenet4",
+      "lenet1",
+      "lenet5"
+    ]
+  }
+}

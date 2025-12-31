@@ -1,0 +1,188 @@
+{
+  "summary": {
+    "total_models": 5,
+    "experiment_config": {
+      "n_runs": 1000,
+      "seed": 42,
+      "pca_dim": 30,
+      "eps": 1e-05,
+      "min_cluster_size": 5
+    }
+  },
+  "results": [
+    {
+      "dataset": "mnist",
+      "model": "lenet1",
+      "experiment_config": {
+        "n_runs": 1000,
+        "seed": 42,
+        "pca_dim": 30,
+        "eps": 1e-05,
+        "min_cluster_size": 5
+      },
+      "global_log_lambda": {
+        "real_value": 113.89811875328141,
+        "z_score": 68.63113135518124,
+        "p_value": 0.000999000999000999,
+        "null_distribution": {
+          "mean": 94.25161832280583,
+          "std": 0.2862622259394299,
+          "min": 93.13074283357649,
+          "max": 95.00131988486633,
+          "median": 94.27323569287108,
+          "q25": 94.07309000112508,
+          "q75": 94.44739132459503,
+          "n_samples": 1000
+        }
+      },
+      "cluster_info": {
+        "n_clusters": 2,
+        "cluster_sizes": [
+          768,
+          146
+        ],
+        "total_samples": 914
+      }
+    },
+    {
+      "dataset": "mnist",
+      "model": "lenet4",
+      "experiment_config": {
+        "n_runs": 1000,
+        "seed": 42,
+        "pca_dim": 30,
+        "eps": 1e-05,
+        "min_cluster_size": 5
+      },
+      "global_log_lambda": {
+        "real_value": 130.1278154224726,
+        "z_score": 97.62335897274718,
+        "p_value": 0.000999000999000999,
+        "null_distribution": {
+          "mean": 109.18168215365907,
+          "std": 0.21456066958995856,
+          "min": 108.35691227306359,
+          "max": 109.77538943218656,
+          "median": 109.1807701305119,
+          "q25": 109.04395813100778,
+          "q75": 109.33304422784884,
+          "n_samples": 1000
+        }
+      },
+      "cluster_info": {
+        "n_clusters": 4,
+        "cluster_sizes": [
+          338,
+          239,
+          759,
+          235
+        ],
+        "total_samples": 1571
+      }
+    },
+    {
+      "dataset": "mnist",
+      "model": "lenet5",
+      "experiment_config": {
+        "n_runs": 1000,
+        "seed": 42,
+        "pca_dim": 30,
+        "eps": 1e-05,
+        "min_cluster_size": 5
+      },
+      "global_log_lambda": {
+        "real_value": 127.43280003879956,
+        "z_score": 81.75113979868914,
+        "p_value": 0.000999000999000999,
+        "null_distribution": {
+          "mean": 106.34644008885037,
+          "std": 0.257933528533963,
+          "min": 105.55394531600517,
+          "max": 107.20963831353656,
+          "median": 106.35211952097609,
+          "q25": 106.15835613030194,
+          "q75": 106.52235963911622,
+          "n_samples": 1000
+        }
+      },
+      "cluster_info": {
+        "n_clusters": 2,
+        "cluster_sizes": [
+          586,
+          288
+        ],
+        "total_samples": 874
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "model": "resnet20",
+      "experiment_config": {
+        "n_runs": 1000,
+        "seed": 42,
+        "pca_dim": 30,
+        "eps": 1e-05,
+        "min_cluster_size": 5
+      },
+      "global_log_lambda": {
+        "real_value": 137.3168123298815,
+        "z_score": 105.02687824151305,
+        "p_value": 0.000999000999000999,
+        "null_distribution": {
+          "mean": 103.48408145797185,
+          "std": 0.32213402357927906,
+          "min": 102.44543100323375,
+          "max": 104.38395924074754,
+          "median": 103.4760613105424,
+          "q25": 103.2773845653285,
+          "q75": 103.70661854004263,
+          "n_samples": 1000
+        }
+      },
+      "cluster_info": {
+        "n_clusters": 2,
+        "cluster_sizes": [
+          1201,
+          584
+        ],
+        "total_samples": 1785
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "model": "resnet50",
+      "experiment_config": {
+        "n_runs": 1000,
+        "seed": 42,
+        "pca_dim": 30,
+        "eps": 1e-05,
+        "min_cluster_size": 5
+      },
+      "global_log_lambda": {
+        "real_value": 119.08820793979818,
+        "z_score": 130.2335239895937,
+        "p_value": 0.000999000999000999,
+        "null_distribution": {
+          "mean": 91.6501221049347,
+          "std": 0.21068373944220325,
+          "min": 90.78845028688762,
+          "max": 92.22715978607592,
+          "median": 91.65356579343168,
+          "q25": 91.50422838886516,
+          "q75": 91.80194124067256,
+          "n_samples": 1000
+        }
+      },
+      "cluster_info": {
+        "n_clusters": 4,
+        "cluster_sizes": [
+          240,
+          335,
+          531,
+          229
+        ],
+        "total_samples": 1335
+      }
+    }
+  ]
+}
